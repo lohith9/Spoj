@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+   float a;
+   while(1){
+       cin>>a;
+       if(a==0.00){
+           break;
+       }
+       else{
+           long int i=0;
+           float len=0;
+           while(len<a){
+               i++;
+               len+=((1.00)/(1.00+i));
+           }
+           cout<<i<<" "<<"card(s)"<<endl;
+       }
+   }
+}
