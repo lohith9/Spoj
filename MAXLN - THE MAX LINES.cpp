@@ -1,3 +1,4 @@
+// triangle in a semi-circle is a right angle triangle.(a^2+b^2=c^2)
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
